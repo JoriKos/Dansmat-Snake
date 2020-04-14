@@ -1,3 +1,8 @@
+var DancematController = require(['script'], function (script) {
+  });
+var dancemat = new DancematController
+
+
 const canvas = document.getElementById('canvas');
 const context = canvas.getContext('2d');
 
@@ -132,7 +137,7 @@ document.addEventListener('keydown', function(e) {
     snake.dx = 0;
   }
   // right arrow key
-  else if (e.which === 39 && snake.dx === 0) {
+  else if ("right:press" && snake.dx === 0) {
     snake.dx = grid;
     snake.dy = 0;
   }
