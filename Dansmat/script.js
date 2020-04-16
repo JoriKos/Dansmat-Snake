@@ -127,22 +127,22 @@ document.addEventListener('keydown', function(e) {
   // shouldn't let you collide with your own body)
 
   // left arrow key
-  if (e.which === 37 && snake.dx === 0) {
+  if (e."left:press", y.function(key)) {
     snake.dx = -grid;
     snake.dy = 0;
   }
   // up arrow key
-  else if (e.which === 38 && snake.dy === 0) {
+  else if (e."up:press", y.function(key)) {
     snake.dy = -grid;
     snake.dx = 0;
   }
   // right arrow key
-  else if ("right:press" && snake.dx === 0) {
+  else if (e."right:press", y.function(key)) {
     snake.dx = grid;
     snake.dy = 0;
   }
   // down arrow key
-  else if (e.which === 40 && snake.dy === 0) {
+  else if (e."down:press", y.function(key)) {
     snake.dy = grid;
     snake.dx = 0;
   }
